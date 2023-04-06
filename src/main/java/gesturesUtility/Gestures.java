@@ -7,6 +7,7 @@ import org.openqa.selenium.remote.RemoteWebElement;
 
 import com.google.common.collect.ImmutableMap;
 
+import io.appium.java_client.AppiumBy;
 import io.appium.java_client.android.AndroidDriver;
 
 public class Gestures 
@@ -54,6 +55,10 @@ public class Gestures
 				"endX", endx,
 				"endY", endy
 				));
+	}
+	
+	public void scrollIntoView(String an,String av) {
+		driver.findElement(AppiumBy.androidUIAutomator("new UiScrollable(new UiSelector()).scrollIntoView("+an+"(\""+av+"\"))"));
 	}
 
 }

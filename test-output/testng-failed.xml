@@ -3,11 +3,16 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="driver.methods.SWITCH_VIEWS">
+      <class name="genral.store.scripts.TC_01_LoginSuccess">
         <methods>
-          <include name="click"/>
+          <include name="closeApp"/>
+          <include name="startServer"/>
+          <include name="logintoApp"/>
+          <include name="stopServer"/>
+          <include name="launchApp"/>
+          <include name="ckecklogin"/>
         </methods>
-      </class> <!-- driver.methods.SWITCH_VIEWS -->
+      </class> <!-- genral.store.scripts.TC_01_LoginSuccess -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -1,17 +1,81 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-04-05T12:22:25 IST" name="Default suite" finished-at="2023-04-05T12:22:45 IST" duration-ms="20064">
+  <suite started-at="2023-04-06T17:30:15 IST" name="Default suite" finished-at="2023-04-06T17:30:52 IST" duration-ms="36730">
     <groups>
     </groups>
-    <test started-at="2023-04-05T12:22:25 IST" name="Default test" finished-at="2023-04-05T12:22:45 IST" duration-ms="20064">
-      <class name="gestures.Swipe">
-        <test-method signature="test1()[pri:0, instance:gestures.Swipe@54c5a2ff]" started-at="2023-04-05T12:22:25 IST" name="test1" finished-at="2023-04-05T12:22:45 IST" duration-ms="20027" status="PASS">
+    <test started-at="2023-04-06T17:30:15 IST" name="Default test" finished-at="2023-04-06T17:30:52 IST" duration-ms="36730">
+      <class name="genral.store.scripts.TC_01_LoginSuccess">
+        <test-method is-config="true" signature="startServer()[pri:0, instance:genral.store.scripts.TC_01_LoginSuccess@302c971f]" started-at="2023-04-06T17:29:57 IST" name="startServer" finished-at="2023-04-06T17:30:15 IST" duration-ms="18144" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test1 -->
-      </class> <!-- gestures.Swipe -->
+        </test-method> <!-- startServer -->
+        <test-method is-config="true" signature="launchApp()[pri:0, instance:genral.store.scripts.TC_01_LoginSuccess@302c971f]" started-at="2023-04-06T17:30:16 IST" name="launchApp" finished-at="2023-04-06T17:30:31 IST" duration-ms="15510" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApp -->
+        <test-method is-config="true" signature="logintoApp()[pri:0, instance:genral.store.scripts.TC_01_LoginSuccess@302c971f]" started-at="2023-04-06T17:30:31 IST" name="logintoApp" finished-at="2023-04-06T17:30:49 IST" duration-ms="17835" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logintoApp -->
+        <test-method signature="ckecklogin()[pri:0, instance:genral.store.scripts.TC_01_LoginSuccess@302c971f]" started-at="2023-04-06T17:30:49 IST" name="ckecklogin" finished-at="2023-04-06T17:30:50 IST" duration-ms="1001" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Product] but found [Products]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Product] but found [Products]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1577)
+at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+at org.testng.Assert.assertEquals(Assert.java:131)
+at org.testng.Assert.assertEquals(Assert.java:655)
+at org.testng.Assert.assertEquals(Assert.java:665)
+at genral.store.scripts.TC_01_LoginSuccess.ckecklogin(TC_01_LoginSuccess.java:18)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ckecklogin -->
+        <test-method is-config="true" signature="closeApp()[pri:0, instance:genral.store.scripts.TC_01_LoginSuccess@302c971f]" started-at="2023-04-06T17:30:51 IST" name="closeApp" finished-at="2023-04-06T17:30:52 IST" duration-ms="692" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+        <test-method is-config="true" signature="stopServer()[pri:0, instance:genral.store.scripts.TC_01_LoginSuccess@302c971f]" started-at="2023-04-06T17:30:53 IST" name="stopServer" finished-at="2023-04-06T17:30:53 IST" duration-ms="53" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopServer -->
+      </class> <!-- genral.store.scripts.TC_01_LoginSuccess -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
