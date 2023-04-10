@@ -1,0 +1,30 @@
+adb = android debug bridge
+adb is constant
+adb devices--> It will fetch UDID.
+
+Why we req. ADB?
+-->To establish a communication between your system and device.
+
+what are the diff. parts of ADB?
+
+1) Adb client--> the person who is making req.
+
+2) Adb server--> this process your req. (It is hosted on port 5037)
+
+3) Adb daemon--> Actual action will be processed by this Adb daemon --> this is in your device
+
+
+Working ADB 
+(Server is Up and Running)
+
+1. client will make a req.
+2. server process the req.
+3. adb daemon will perform actual action and according to the req. it will reply with resp.
+
+(Server is OFF)
+1. It will start the server at port 5037
+
+2. client will make a req.
+3. server process the req.
+4. adb daemon will perform actual action and according to the req. it will reply with resp.
+

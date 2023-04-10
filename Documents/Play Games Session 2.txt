@@ -1,0 +1,10 @@
+1 Balanced parenthesis
+
+2 Binary Search
+
+3 Palindrome
+for number and String
+
+4 Sort an array
+
+Ascending and Descending Remove Duplicates

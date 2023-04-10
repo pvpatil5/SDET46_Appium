@@ -1,0 +1,59 @@
+1)If a device is connected start the adb server to be able to interact with the device.
+
+adb start-server
+
+adb kill-server
+
+2)List connected devices
+
+adb devices
+
+3)Pull files from device
+
+adb pull [deviceMObile file location] [local file location]
+
+example:adb pull /storage/emulated/0/sportido_ticket.jpg C:\Users\Srinidhi\Desktop\
+
+4)Write files to device
+
+adb push [local file location] [device file location]
+
+adb push C:\Users\Srinidhi\Desktop\logcat.txt /storage/emulated/0/
+
+5)Installing an App
+adb install [apk_path]
+
+adb -s [device serial] install [apk_path]
+
+adb -r install [apk_path]
+
+6)Uninstalling an App
+adb uninstall [package_name]
+
+Example:adb uninstall io.appium.android.apis
+
+
+7)Taking screenshot
+
+Example: adb shell screencap -p /sdcard/screenshot1.png
+
+	adb pull /sdcard/screenshot1.png
+
+	adb shell rm /sdcard/screenshot1.png
+
+8)Capturing Videos
+
+adb shell screenrecord /sdcard/NotAbleToLogin.mp4
+
+adb pull /sdcard/NotAbleToLogin.mp4
+
+adb shell rm /sdcard/NotAbleToLogin.mp4
+
+9) Adb logs
+
+adb logcat
+
+adb logcat>D:/April2020/pavan.txt
+
+
+

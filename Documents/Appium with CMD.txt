@@ -1,0 +1,32 @@
+Installing Appium with Node JS
+
+Step 1 : Check if node.js is installed on your system    
+	node --version    
+	npm --version
+
+Step 2 : Download node.js installer    
+	https://nodejs.org/en/download/
+
+Step 3 : Run the installer & install node.js & npm
+
+Step 4 : Check if node.js & npm are installed
+   	 node --version   
+	 npm --version
+	 where node
+   	 where npm
+
+Step 5 : Install appium with node.js
+   	 npm install -g appium@next
+
+Step 6 : Check if appium is installed
+   	appium -v
+    	where appium
+
+Step 7 : Start appium
+  	  appium
+
+Step 8 : Stop Server
+       	taskkill /F /IM node.exe
+
+
+

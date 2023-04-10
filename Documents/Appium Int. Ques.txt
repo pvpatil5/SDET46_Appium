@@ -1,0 +1,15 @@
+Below are some websites which have Appium Question & Answer
+
+https://www.edureka.co/blog/interview-questions/appium-interview-questions/
+
+https://www.softwaretestingo.com/appium-interview-questions/
+
+https://experitest.com/appum-blog/answers-to-our-users-most-common-appium-questions/
+
+Compulsory Ques.
+
+1) Have you developed Appium Framework if Yes then Explain various components in it ??
+2) Have you developed Selenium Framework if Yes then Explain various components in it ??
+3) Exact Experience on Appium , Selenium & Manual 
+4) Java (OOPs) Concept used in your frame work(Appium).
+5) 5 exceptions you faced in Appium?

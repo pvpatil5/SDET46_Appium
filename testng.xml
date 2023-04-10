@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="tests" thread-count="5">
+	<parameter name="port" value="4724"></parameter>
+	<test name="Test1">
+		<parameter name="deviceName" value="Galaxy M30s"></parameter>
+		<parameter name="UDID" value="RZ8M83ZJH2W"></parameter>
+		<parameter name="platformVersion" value="11"></parameter>
+
+		<classes>
+			<class name="genral.store.scripts.TC02_AddProductToCart" />
+			<class name="genral.store.scripts.TC03_BuyProductfromWeb" />
+			<class name="genral.store.scripts.TC_01_LoginSuccess" />
+		</classes>
+	</test>
+
+	<test name="Test2">
+		<parameter name="deviceName" value="Samasung"></parameter>
+		<parameter name="UDID" value="RZ8N91KGFEH"></parameter>
+		<parameter name="platformVersion" value="12"></parameter>
+		<parameter name="port" value="4723"></parameter>
+		<classes>
+			<class name="genral.store.scripts.TC02_AddProductToCart" />
+			<class name="genral.store.scripts.TC03_BuyProductfromWeb" />
+			<class name="genral.store.scripts.TC_01_LoginSuccess" />
+		</classes>
+	</test>
+
+</suite> <!-- Suite -->

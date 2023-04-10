@@ -1,0 +1,27 @@
+How to Find out App Package and App Activity through cmd line?
+
+Pre-Condition : App should be already Installed in Mobile.
+
+Step 1: Connect your Mobile to System and Run Adb Devices.
+Step 2: Open a App in our Mobile Phone for which you need to find out App Package and App Activity.
+Step 3: Now run below adb Command in cmd 
+	adb shell "dumpsys window windows | grep -E 'mCurrentFocus|mFocusedApp'"
+-------------------------------------------------
+-------------------------------------------------
+
+
+Pre-condition : If App is Not installed in Mobile.
+		You should have Apk file. 
+
+Step 1: Copy .apk file and Paste it in your C: Users\Android\Sdk\build-tools\29 or 30 or whatever you have.
+        Example: C:\Users\AMAR-G\AppData\Local\Android\Sdk\build-tools\29.0.3
+
+Step 2: Now run below adb Command
+	aapt dump badging Nameofyourapp.apk
+ 	Example: aapt dump badging ApiDemos-debug.apk
+
+---------------------
+---------------------
+
+Activity launcher
+ApkInfo

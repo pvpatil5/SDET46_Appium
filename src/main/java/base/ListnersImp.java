@@ -69,7 +69,9 @@ public class ListnersImp implements ITestListener
 
 		reports = new ExtentReports();
 		reports.attachReporter(reporter);
-		reports.setSystemInfo("Buil no", "4.5.3");
+		reports.setSystemInfo("Build no", "4.5.3");
+		reports.setSystemInfo("env", "qa");
+		reports.setSystemInfo("platform", "Android");
 
 
 
