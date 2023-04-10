@@ -1,0 +1,9 @@
+IOS Element Attributes
+In case of IOS "type" is Tagname and in case of Android class is tagname
+ Example of xpath in IOS = //type[@Attributename='Attributevalue']
+eg.1. XCUIElementTypeStaticText  for Text
+2.	XCUIElementTypeButton for button
+in IOS value attribute holds text for UI element  label attribute is also imp for static text
+
+
+elementid is dynamically generated

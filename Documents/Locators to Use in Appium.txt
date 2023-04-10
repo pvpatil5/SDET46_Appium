@@ -1,0 +1,11 @@
+For native apps, please try to avoid using XPath. XPath is fragile, slow and bound to change with minor UI updates in the application. A single UI update and many XPaths will get impacted if not optimized.
+
+If you really want to use XPath, please write optimized XPaths. 
+
+If elements cannot be identified using unique IDs, please request your application development team to add those as much as possible.
+
+Also, iOS Predicate Strings and Class Chains are very good alternatives to XPath. Appium Inspector automatically suggests these in most of the cases. So prefer these over XPath.
+
+For Android , it's still ok to use XPath for elements where resource-id is not available, but for iOS, please avoid as much as possible.
+
+For Hybrid apps, prefer CSS over XPath if elements cannot be identified using unique IDs.

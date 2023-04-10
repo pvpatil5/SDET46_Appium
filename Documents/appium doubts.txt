@@ -1,0 +1,32 @@
+1.if ur running parallel execution how will be come to know which port is free ?
+-->using any free port method.
+--> To start the Appium server at any random free port, builder.usingAnyFreePort();
+2.what are the main criteria under consideration when performing end-to-end testing?
+-->
+3.why we are using appium field decorater ?
+-->
+4.how will you set the configuration for ios ?
+-->
+5.you have two devices and certain test cases. You need to setup the test run in a way that which 
+  device is available first, next test case will run in that device.?
+-->is device is Available.
+6.appium challenges ?
+-->
+7.Scenario - we are using native app and there is terms and conditions link. When i am clicking on it. It is opening in mobile browser. 
+Tell me your approach to close browser ?
+
+-->context switch method
+8. Scenario - using only one mobile we want to install one app with different versions simultaneously. How is it possible. ?
+--> not possible
+9.We want to test one app with different versions. How many ways we can do it. Explain. 
+-->cross platform..multiple devices
+10.Tap action from one element to other.
+-->
+11.you have two devices and certain test cases. You need to setup the test run in a way that which device is available first, next test case will run in that device.
+--> 
+12.If you are running parallel execution, how will we come to know which port is free ? & how will you assign the waiting script to that particular port.
+13.if you have multipe push notification ,
+ how you will click on single push notification among them,write the code?
+14..suppose a app is there which is running in iphone 13 but not in iphone 11
+ and developer told you to run on iphone 13 only and make status as fixed ,how you
+will handle that situation?
